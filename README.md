@@ -35,8 +35,7 @@ Someday I'll include a config file, in order to make this easier.
 
 As nmap needs high privileges, you need to run the script with sudo.
 
-chmod +x port_monitor.rb
-sudo ./port_monitor.rb
+sudo ruby port_monitor.rb
 
 Logs are rotated daily, but XML files will pile up with time.
 log/activity.log - everything is logged

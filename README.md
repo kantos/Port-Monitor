@@ -1,5 +1,5 @@
 # Port-Monitor
-Tools to keep continuous monitoring of a pool of IP open ports
+Tool to keep continuous monitoring of a pool of IP open ports
 
 This code was ran with Ruby 2.1.2 at Ubuntu 14.04
 
@@ -37,8 +37,6 @@ As nmap needs high privileges, you need to run the script with sudo.
 
 chmod +x port_monitor.rb
 sudo ./port_monitor.rb
-
-
 
 Logs are rotated daily, but XML files will pile up with time.
 log/activity.log - everything is logged
